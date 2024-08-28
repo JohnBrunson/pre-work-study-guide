@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+header, footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+body {
+    background-color: #E7EEFD;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+#cat-icon {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+p {
+    text-align: center;
+    font-size: 30 px;
+}
+
+.card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+}
+table {
+    border: 1px solid black;
+}
+th {
+    border: black;
+    text-align: left;
+    content: 10px;
+}
+tr {
+    border: 1px solid black;
+    text-align: left;
+    padding: 5%;
+    margin: auto;
+}
+tr:nth-of-type(even) {
+    background: #cdd9f6;
+
+}
