@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img id="cat-icon" src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
       <!-- Student code goes here -->
@@ -19,7 +20,6 @@
           <li>Enter your HTML Notes Here.</li>
           <li>The head element contains information about the web page.</li>
           <li>The Meta tag handles several items:</li>
-            <ul>
               <table>
                 <thead>
                   <tr>
@@ -45,15 +45,51 @@
               <li>For more information on the HTML meta tag, click <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta">here</a></li>
             </ul>
           <li>The body tag contains the bulk of the web page. It is the content visible to the user.</li>
-          <li></li>
         </ul>
        </section>
+
+
        <section class="card" id="css-section">
         <h2>CSS</h2>
+        <h3>The Box Model</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Content</td>
+              <td>The Area which has your content</td>
+            </tr>
+            <tr>
+              <td>Padding</td>
+              <td>How much "white" space we want around <b> the content</b> in an element.</td>
+            </tr>
+            <tr>
+              <td>Border</td>
+              <td>The Border Box that wraps around <b>the content and any padding.</b></td>
+            </tr>
+            <tr>
+              <td>Margin</td>
+              <td>How much space we have around an element. This encompasses <b>the border, the padding and the content</b></td>
+            </tr>
+          </tbody>
+        </table>
         <ul>
           <li>Enter your CSS notes here.</li>
+          <li></li>
+        </ul>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">CSS Box Model (MDN)</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">More information about CSS and its selectors</a></li>
         </ul>
        </section>
+
+
        <section class="card" id="git-section">
         <h2>Git Flow</h2>
         <table>
@@ -87,12 +123,12 @@
             </tr>
             <tr>
               <td>5</td>
-              <td>git commit -M "Message goes here"</td>
+              <td>git commit -m "Message goes here"</td>
               <td>Commits (saves) changes to the local repository/branch.</td>
             </tr>
             <tr>
               <td>6</td>
-              <td>git push origin(branch-type)/(name-of-branch)"</td>
+              <td>git push origin(branch-type)/(name-of-branch)</td>
               <td>Pushes changes to remote repository</td>
             </tr>
           </tbody>
@@ -100,12 +136,67 @@
         <h3>Resources</h3>
         <ul>
           <li><a href="https://git-scm.com/docs">Git Documentation</a></li>
+          <li><a href="https://docs.github.com/en/get-started/using-github/github-flow">Git Flow</a></li>
         </ul>
        </section>
        <section class="card" id="javascript-section">
         <h2>Javascript (JS)</h2>
         <ul>
           <li>Enter your JS notes here.</li>
+        </ul>
+       </section>
+
+       <section class="card" id="debugging-section">
+        <h2>Debugging</h2>
+        <table>
+          <thead>
+            <tr>           
+              <th>Step</th>
+              <th>Item</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td>Perception</td>
+              <td>See your bugs as opportunities rather than problems.</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Conceptualize the Bug</td>
+              <td>What is the code doing vs what do you want it to do. (Expected vs Actual Behavior.)</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><a href="https://en.wikipedia.org/wiki/Hunt_the_Wumpus">Hunt the Wumpus! (Bug!)</a></td>
+              <td>Find the bug using debugging tools, browser tools, and outputs to the console. Review the variables. What happens when you change them?</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Implement trial solutions</td>
+              <td>Make a list of possible solutions using //TODO and test your changed. Did it resolve the issue?</b></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Further Test the Solution</td>
+              <td>Implement changes, push to your repository and test again. Does it work?</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Document the solution</td>
+              <td>Document what you've done for future reference. This can be via issues, via comments, separate systems, etc.</b></td>
+            </tr>
+          </tbody>
+        </table>
+        <ul>
+          <li>Enter your CSS notes here.</li>
+          <li></li>
+        </ul>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://developer.chrome.com/docs/devtools/overview/l">Chrome devtools Documentation</a></li>
+          <li><a href="https://code.visualstudio.com/Docs/editor/debugging">VSCode: Intro to Debugging tools</a></li>
         </ul>
        </section>
     </main>
