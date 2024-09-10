@@ -22,7 +22,7 @@ function selectTopic () {
         console.log("Let's Study Git!");
     }
     else if (randomTopic === 'Javascript') {
-        console.log("Let's Study Javascipt!");
+        console.log("Let's Study Javascript!");
     }
     else {
         console.log('Please try again');
