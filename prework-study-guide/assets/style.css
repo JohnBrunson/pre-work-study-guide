@@ -62,3 +62,7 @@ tr {
 tr:nth-of-type(even) {
     background: #cdd9f6;
 }
+
+footer {
+    text-align: center;
+}
