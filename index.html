@@ -18,10 +18,16 @@
       <!-- Student code goes here -->
        <section class="card" id="html-section">
         <h2>HTML</h2>
+        <h3>The "Nouns" of the page</h3>
+        <p>Web pages are the foundation of the internet. Though the web has grown and changed over the years, the basic building blocks have remained the same: HTML, CSS, and Javascript. To borrow an analogy: If a web page is a sentence, then HTML represents the nouns, CSS represents the adjectives, and JS represents the verbs. See the below cards for a very basic introduction to these technologies. HTML has a basic structure to it:</p> 
+        <br/>
         <ul>
-          <li>Enter your HTML Notes Here.</li>
-          <li>The head element contains information about the web page.</li>
-          <li>The Meta tag handles several items:</li>
+          <li>Head</li>
+          <li>Body</li>
+          <li>Footer</li>
+        </ul>
+        <ul>
+          <li>The <b>head</b> element contains information about the web page that communicates to the browser various things. In particular, it communicates the meta (the data about the data, if you will. Within the head's <b>meta</b> there are several important items.</li>
               <table>
                 <thead>
                   <tr>
@@ -44,15 +50,23 @@
                   </tr>
                 </tbody>
               </table>
-              <li>For more information on the HTML meta tag, click <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta">here</a></li>
+              <li>The <b>body</b> tag contains the bulk of the web page. It is the content visible to the user.</li>
+              <li>The <b>footer</b> contains copyright information</li>
             </ul>
-          <li>The body tag contains the bulk of the web page. It is the content visible to the user.</li>
+
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML" target="_blank">Introduction to HTML</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML Reference</a></li>
         </ul>
        </section>
 
 
        <section class="card" id="css-section">
         <h2>CSS</h2>
+        <h3>The "Adjectives" of the page</h3>
+        <p>CSS describes what the markup or elements should look like and how they should be presented to the user. There's a variety of ways to do this: Fonts, color, headings, etc. These should accentuate and articulate the presentation and make the reader's job as easy as possible. Predominantly, the model used is known as <b>the box model</b>.</p>
+        <br/>
         <h3>The Box Model</h3>
         <table>
           <thead>
@@ -80,20 +94,39 @@
             </tr>
           </tbody>
         </table>
-        <ul>
-          <li>Enter your CSS notes here.</li>
-          <li></li>
-        </ul>
         <h3>Resources</h3>
         <ul>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">CSS Box Model (MDN)</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">More information about CSS and its selectors</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Intro to CSS</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model" target="_blank">CSS Box Model (MDN)</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators" target="_blank">More information about CSS and its selectors</a></li>
         </ul>
        </section>
 
+       <section class="card" id="javascript-section">
+        <h2>Javascript (JS)</h2>
+        <h3>The "verbs" of the page. </h3>
+        <p>Javascript is the actions that the web page takes. It is a compact programming language that is designed to run in the browser. It shares many features of other programming languages</p>
+        <ul>
+          <li>Variables and Data Types</li>
+          <li>Control flow</li>
+          <li>Objects</li>
+          <li>Its own standard library</li>
+        </ul>
+        <br/>
+        <p>For a brief demonstration, check the console to see what is happening under the hood of this page and suggestions on what to study as part of this guide</p>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">Getting Started</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy" target="_blank">Truthy Values</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank">Math Function</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank">Reference for the Javascript library</a></li>
+        </ul>
+       </section>
 
        <section class="card" id="git-section">
         <h2>Git Flow</h2>
+        <h3>Or... how to do version control!</h3>
+        <p>Version control is a very important step to the process. It also allows people to collaborate with you without (hopefully) breaking the code. Below is a basic outline of the process.</p>
         <table>
           <thead>
             <tr>
@@ -130,6 +163,11 @@
             </tr>
             <tr>
               <td>6</td>
+              <td>Github Pull Request</td>
+              <td>Navigate to the repository and setup a pull request as described <a href="">here</a></td>
+            </tr>
+            <tr>
+              <td>7</td>
               <td>git push origin(branch-type)/(name-of-branch)</td>
               <td>Pushes changes to remote repository</td>
             </tr>
@@ -137,29 +175,15 @@
         </table>
         <h3>Resources</h3>
         <ul>
-          <li><a href="https://git-scm.com/docs">Git Documentation</a></li>
-          <li><a href="https://docs.github.com/en/get-started/using-github/github-flow">Git Flow</a></li>
-        </ul>
-       </section>
-
-       <section class="card" id="javascript-section">
-        <h2>Javascript (JS)</h2>
-        <ul>
-          <li>Variables are containers for data</li>
-          <li>Control flow determines how a program functions and what pieces of the program execute</li>
-          <li>Arrays are a way to store a series of data points.</li>
-        <h3>Resources</h3>
-        <ul>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">Getting Started</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy">Truthy Values</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">Math Function</a></li>
-
-        </ul>
+          <li><a href="https://git-scm.com/docs" target="_blank">Git Documentation</a></li>
+          <li><a href="https://docs.github.com/en/get-started/using-github/github-flow" target="_blank">Git Flow</a></li>
         </ul>
        </section>
 
        <section class="card" id="debugging-section">
         <h2>Debugging</h2>
+        <h3>The code doesn't do what I want it to... Now what?</h3>
+        <p>Inevitably, the code won't do what you want or expect it to do. How do we fix it? Below is a brief framework for figuring it out. Remember, you are attempting to get a rock to think. Adjust your expectations accordingly!</p>
         <table>
           <thead>
             <tr>           
@@ -181,7 +205,7 @@
             </tr>
             <tr>
               <td>2</td>
-              <td><a href="https://en.wikipedia.org/wiki/Hunt_the_Wumpus">Hunt the Wumpus! (Bug!)</a></td>
+              <td><a href="https://en.wikipedia.org/wiki/Hunt_the_Wumpus" target="_blank">Hunt the Wumpus! (Bug!)</a></td>
               <td>Find the bug using debugging tools, browser tools, and outputs to the console. Review the variables. What happens when you change them?</td>
             </tr>
             <tr>
@@ -201,17 +225,25 @@
             </tr>
           </tbody>
         </table>
-        <ul>
-          <li>Enter your CSS notes here.</li>
-          <li></li>
-        </ul>
         <h3>Resources</h3>
         <ul>
-          <li><a href="https://developer.chrome.com/docs/devtools/overview/l">Chrome devtools Documentation</a></li>
-          <li><a href="https://code.visualstudio.com/Docs/editor/debugging">VSCode: Intro to Debugging tools</a></li>
+          <li><a href="https://developer.chrome.com/docs/devtools/overview/" target="_blank">Chrome devtools Documentation</a></li>
+          <li><a href="https://code.visualstudio.com/Docs/editor/debugging" target="_blank">VSCode: Intro to Debugging tools</a></li>
         </ul>
        </section>
-    </main>
+
+    <section class = "card" id="general-resources-section">
+      <h2>General Resources</h2>
+      <h3>Other Places to explore and visit!</h3>
+      <p>These are general resources that are meant to give you additional jumping off points and other pieces to explore!</p>
+      <ul>
+        <li><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></li>
+        <li><a href="https://shields.io" target="_blank">Shields.io -- For nice looking badges for GitHub Projects</a></li>
+        <li><a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">Markdown cheat sheet</a></li>
+
+      </ul>
+    </section>
+      </main>
 
     <footer>
       <p>I can code!</p>

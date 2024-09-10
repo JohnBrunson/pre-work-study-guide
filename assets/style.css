@@ -16,6 +16,7 @@ body {
 h1, h2, h3 {
     text-align: center;
 }
+
 #cat-icon {
     display: block;
     height: 50px;
@@ -24,13 +25,14 @@ h1, h2, h3 {
     margin-right: auto;
 }
 
+p {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
 ul {
     padding-left: 40px;
-    font-size: 20px;
-}
-p {
-    text-align: center;
-    font-size: 30 px;
+    font-size: 18px;
 }
 
 .card {
@@ -39,21 +41,28 @@ p {
     border: 5px solid gray;
     box-shadow: 5px 10px #888888;
 }
+
 table {
     border: 1px solid black;
 }
+
 th {
     border: black;
     text-align: left;
     content: 10px;
 }
+
 tr {
     border: 1px solid black;
     text-align: left;
     padding: 5%;
     margin: auto;
 }
+
 tr:nth-of-type(even) {
     background: #cdd9f6;
+}
 
+footer {
+    text-align: center;
 }
